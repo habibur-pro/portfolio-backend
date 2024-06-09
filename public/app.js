@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
     return (0, sendResponse_1.default)(res, {
         success: true,
         statusCode: http_status_1.default.OK,
-        message: 'Welcome to event 360 backend',
+        message: 'Welcome to portfolio server',
     });
 });
 app.use('/api', routes_1.default);
