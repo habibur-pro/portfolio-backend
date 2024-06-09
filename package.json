@@ -11,8 +11,8 @@
     "mongoose": "^8.2.1"
   },
   "scripts": {
-    "start": "node dist/server.js",
-    "start:prod": "node dist/server.js",
+    "start": "node public/server.js",
+    "start:prod": "node public/server.js",
     "dev": "ts-node-dev --respawn --transpile-only ./src/server.ts",
     "lint": "eslint src --ignore-path .eslintignore --ext .js,.ts,.json",
     "lint:fix": "npx lint --fix",
