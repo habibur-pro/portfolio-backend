@@ -11,8 +11,13 @@ const addSkill = async (payload: Partial<TSkill>) => {
   })
   return skill
 }
+const getallSkill = async () => {
+  const skills = await Skill.find({}).sort({ createdAt: 'desc' })
+  return skills
+}
 
 const SkillServices = {
   addSkill,
+  getallSkill,
 }
 export default SkillServices

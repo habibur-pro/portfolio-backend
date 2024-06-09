@@ -6,6 +6,7 @@ const SkillSchema = new Schema<TSkill>(
     id: {
       type: String,
       required: [true, 'id is required'],
+      unique: true,
     },
     name: {
       type: String,
