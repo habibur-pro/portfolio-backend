@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   return sendResponse(res, {
     success: true,
     statusCode: httpStatus.OK,
-    message: 'Welcome to event 360 backend',
+    message: 'Welcome to portfolio server',
   })
 })
 
